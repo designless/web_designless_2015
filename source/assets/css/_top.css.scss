@@ -1,0 +1,147 @@
+html, body {
+  background: url(../images/lit_bg.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  font-family: 'BrandonGrotesque-Regular';
+}
+
+a {
+  color: #fff;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 800px;
+  height: 300px;
+  text-align: center;
+  color: #fff;
+  h1 {
+    letter-spacing: 5px;
+    font-family: 'BrandonGrotesque-Regular';
+    font-size: 38px;
+    font-weight: normal;
+  }
+  h2 {
+    letter-spacing: 5px;
+    font-size: 36px;
+    font-weight: normal;
+  }
+  hr {
+    display: inline-block;
+    width: 40px;
+    margin: 30px auto 28px;
+  }
+  h3 {
+    position: relative;
+    text-align: center;
+  }
+  .link-box {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -150px !important;
+    z-index: 2;
+    width: 300px;
+    color: #fff;
+  }
+}
+
+.sidebar .social-box {
+  margin-top: 10px;
+  ul {
+    overflow: hidden;
+  }
+  li {
+    float: left;
+    width: 1.5rem;
+    margin-right: .9rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  i {
+    font-size: 1rem;
+  }
+}
+
+.toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  width: 64px;
+  line-height: 64px;
+  z-index: 10;
+}
+
+.menu-button {
+  position: relative;
+  margin: 5px;
+  height: 36px;
+  width: 36px;
+  cursor: pointer;
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: 11;
+    top: 5px;
+    right: 3px;
+    border-bottom: 17px double #fff;
+    border-top: 6px solid #fff;
+    width: 30px;
+    height: 5px;
+  }
+  &:hover {
+    opacity: .5;
+  }
+}
+
+.menu-left {
+  float: left;
+  margin-right: 1.5rem;
+}
+
+.sidebar {
+  font-size: .8rem;
+  margin: 0;
+  color: #eee;
+  background-color: #000;
+  line-height: 1.7;
+  letter-spacing: 2px;
+  .inner {
+    padding: 3rem;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  dt {
+    padding-top: 5px;
+    margin-bottom: 1rem;
+    font-family: 'BrandonGrotesque-Bold';
+    color: #fff;
+  }
+}
+
+.mb {
+  margin-bottom: 2.2rem;
+}
