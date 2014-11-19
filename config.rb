@@ -20,7 +20,6 @@ compass_config do |config|
 
   # To enable relative paths to assets via compass helper functions. Uncomment:
   relative_assets = true
-  set :relative_links, true
 
   # To disable debugging comments that display the original location of your selectors. Uncomment:
   line_comments = false
@@ -108,15 +107,20 @@ set :images_dir, 'assets/images'
 
 activate :livereload
 
-# middleman-navigation
-# activate :navigation
+require "uglifier"
 
 # Build-specific configuration
 configure :build do
 
+  set :relative_links, true
+
   activate :minify_css
 
-  activate :minify_javascript
+  activate :minify_javascript, :compressor => Uglifier.new({
+    :output => {
+      :comments => :all
+    }
+  })
 
   activate :minify_html
 
