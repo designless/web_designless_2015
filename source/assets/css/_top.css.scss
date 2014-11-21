@@ -1,5 +1,5 @@
 html, body {
-  background: url(../images/lit_bg.png);
+  background: url(../images/lit_bg.png) #000;
   -webkit-background-size: cover;
   background-size: cover;
   font-family: 'BrandonGrotesque-Regular';
@@ -67,7 +67,7 @@ a {
   li {
     float: left;
     width: 1.5rem;
-    margin-right: .9rem;
+    margin-right: .8rem;
     &:last-child {
       margin-right: 0;
     }
