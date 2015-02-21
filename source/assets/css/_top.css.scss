@@ -133,6 +133,7 @@ a {
   h1 {
     text-align: center;
     margin-bottom: 30px;
+    margin-left: -59px;
   }
   dt {
     padding-top: 5px;
@@ -163,7 +164,7 @@ a {
 
     h1 {
       font-size: 10rem;
-      margin-bottom: 1rem;
+      margin-bottom: 40px;
       word-wrap: break-word;
     }
     p {
@@ -174,6 +175,7 @@ a {
   }
   .list-link {
     max-width: 50%;
+    margin-left: 10px;
     li {
       float: left;
       margin-right: 10px;
@@ -199,7 +201,6 @@ a {
 }
 
 
-#graphic,
 #photography {
   p {
     margin-right: 10px;
@@ -224,17 +225,25 @@ a {
   background: url(../images/bg_graphic.jpg) #fff;
 }
 
+#contents #web,
+#contents #presentaion {
+  h1 {
+    margin-bottom: -10px;
+  }
+}
 
 #web {
   color: #000;
   background: url(../images/bg_web.jpg);
 }
 
-
 #presentation {
   text-align: right;
   background: url(../images/bg_presentation.png);
   color: #000 !important;
+  p {
+    margin-right: 10px;
+  }
   .list-link {
     max-width: 100% !important;
     li {
