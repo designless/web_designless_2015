@@ -1,5 +1,5 @@
 # DESIGNLESS
-## My Website built with Middleman
+## Website built with Middleman
 [DESIGNLESS](http://designless.net)
 
 ##Middleman
@@ -20,4 +20,4 @@ gem install middleman
 * [Font Awesome](http://fontawesome.io/)
 * [Brandon Grotesque](https://www.myfonts.com/fonts/hvdfonts/brandon-grotesque/)
 
-&copy; 2014 Naoki Kanazawa
+&copy; 2014 - 2015 Naoki Kanazawa
