@@ -124,7 +124,7 @@ configure :build do
 
   activate :minify_html
 
-  activate :imageoptim do |options|
+  # activate :imageoptim do |options|
     # print out skipped images
     # options.verbose = true
 
@@ -140,12 +140,12 @@ configure :build do
     # options.pngcrush_options  = {:chunks => ['alla'], :fix => false, :brute => false}
     #options.pngout_options    = {:copy_chunks => false, :strategy => 0}
     # options.optipng_options   = {:level => 6, :interlace => false}
-    options.pngout_options = false
+    # options.pngout_options = false
     # options.advpng_options    = {:level => 4}
     # options.jpegoptim_options = {:strip => ['all'], :max_quality => 100}
     # options.jpegtran_options  = {:copy_chunks => false, :progressive => true, :jpegrescan => true}
     # options.gifsicle_options  = {:interlace => false}
-  end
+  # end
 
   # Enable cache buster
   # activate :asset_hash
