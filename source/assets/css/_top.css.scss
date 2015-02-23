@@ -154,10 +154,9 @@ a {
   background: #000;
   color: #fff;
   width: 100%;
-  padding: 100px 0 0;
   section {
     padding: 90px 0;
-    min-height: 630px;
+    min-height: 400px;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center top;
@@ -201,15 +200,6 @@ a {
 }
 
 
-#photography {
-  p {
-    margin-right: 10px;
-    margin-bottom: 30px;
-  }
-
-}
-
-
 #contents #presentation,
 #contents #photography {
   h1 {
@@ -217,41 +207,50 @@ a {
   }
 }
 
-#photography {
-  background: url(../images/bg_photography.jpg) ;
-}
-
-#graphic {
-  background: url(../images/bg_graphic.jpg) #fff;
-}
-
 #contents #web,
-#contents #presentaion {
+#contents #education {
+  text-align: right;
+  color: #000;
+
   h1 {
     margin-bottom: -10px;
   }
-}
-
-#web {
-  color: #000;
-  background: url(../images/bg_web.jpg);
-}
-
-#presentation {
-  text-align: right;
-  background: url(../images/bg_presentation.png);
-  color: #000 !important;
   p {
     margin-right: 10px;
   }
   .list-link {
-    max-width: 100% !important;
+    max-width: 50%;
+    float: right;
     li {
       float: right;
     }
   }
 }
 
+#photography {
+  background: url(../images/bg_photography.jpg) ;
+  p {
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+#web {
+  background: url(../images/bg_web.jpg) #fff;
+}
+
+#graphic {
+  color: #fff;
+  background: url(../images/bg_graphic.jpg) #fff;
+}
+
+
+#education {
+  background: url(../images/bg_presentation.png);
+
+}
+
+// for mobile
 @media #{$small} {
   #contents {
     section {
@@ -262,7 +261,7 @@ a {
   }
   #web {
     .list-link {
-      max-width: 100%;
+      max-width: 100% !important;
     }
   }
   #presentation {
