@@ -52,7 +52,7 @@ a {
   li {
     float: left;
     width: 1.5rem;
-    margin-right: .8rem;
+    margin-right: .5rem;
     &:last-child {
       margin-right: 0;
     }
@@ -113,7 +113,8 @@ a {
   line-height: 1.7;
   letter-spacing: 2px;
   .inner {
-    padding: 3rem;
+    padding: 2rem 0 2rem 2rem;
+    width: auto;
   }
   h1 {
     text-align: center;
@@ -180,7 +181,7 @@ a {
 }
 
 .inner {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
