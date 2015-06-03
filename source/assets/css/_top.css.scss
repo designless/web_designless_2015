@@ -243,8 +243,18 @@ a {
   #contents {
     section {
       h1 {
-        font-size: 3.5rem !important;
+        font-size: 3.4rem !important;
       }
+    }
+  }
+  #graphic, #photography {
+    h1 {
+      margin-left: 8px;
+    }
+  }
+  #web, #education {
+    h1 {
+      margin-right: 8px;
     }
   }
   #web {
