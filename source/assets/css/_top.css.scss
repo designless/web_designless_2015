@@ -9,29 +9,14 @@ a {
   color: #fff;
 }
 
-#particles-js {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 #main {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  width: 800px;
-  height: 300px;
   text-align: center;
   color: #fff;
+  padding: 20% 20px 0;
   h1 {
     letter-spacing: 5px;
     font-family: 'BrandonGrotesque-Regular';
-    font-size: 38px;
+    font-size: 1.3rem;
     font-weight: normal;
   }
   h2 {
@@ -163,7 +148,7 @@ a {
 
     h1 {
       font-size: 10rem;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       word-wrap: break-word;
     }
     p {
@@ -195,7 +180,7 @@ a {
 }
 
 .inner {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -210,11 +195,7 @@ a {
 #contents #web,
 #contents #education {
   text-align: right;
-  color: #000;
-
-  h1 {
-    margin-bottom: -10px;
-  }
+  color: #fff;
   p {
     margin-right: 10px;
   }
@@ -232,6 +213,12 @@ a {
   p {
     margin-right: 10px;
     margin-bottom: 30px;
+  }
+}
+
+#education {
+  h1,p {
+    color: #000;
   }
 }
 
