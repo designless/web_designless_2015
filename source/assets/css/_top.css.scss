@@ -218,8 +218,18 @@ a {
 }
 
 #education {
+  overflow: hidden;
+  background: url(../images/bg_presentation.png);
+  ul {
+    margin-bottom: 20px;
+  }
   h1,p {
     color: #000;
+  }
+  iframe {
+    clear: both;
+    float: right;
+    display: none;
   }
 }
 
@@ -233,10 +243,6 @@ a {
 }
 
 
-#education {
-  background: url(../images/bg_presentation.png);
-
-}
 
 // for mobile
 @media #{$small} {
@@ -255,6 +261,9 @@ a {
   #web, #education {
     h1 {
       margin-right: 8px;
+    }
+    iframe {
+      display: block;
     }
   }
   #web {
