@@ -17,16 +17,18 @@ img {
 
 a {
   opacity: 1;
-  -webkit-transition: all .25s;
-  -moz-transition: all .25s;
-  -ms-transition: all .25s;
-  -o-transition: all .25s;
   transition: all .25s;
   text-decoration: none;
   &:hover {
     opacity: .5;
   }
 }
+
+[class^="fa"]:before,
+[class*=" fa-"]:before {
+  margin-right: 5px;
+}
+
 
 .text-center {
   text-align: center !important;
